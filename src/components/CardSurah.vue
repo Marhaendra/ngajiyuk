@@ -10,7 +10,7 @@
         {{ surah.arti }} dan <strong>{{ surah.ayat }} ayat</strong>
       </b-card-text>
 
-      <router-link class="btn btn-lg btn-success" :to="'/Surah/'+surah.nomor"> Mulai Baca </router-link>
+      <router-link class="btn btn-lg btn-primary" :to="'/Surah/'+surah.nomor"> Mulai Baca </router-link>
     </b-card>
   </div>
 </template>
